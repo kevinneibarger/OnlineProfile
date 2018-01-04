@@ -1,17 +1,3 @@
-<%-- <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-	<h1> Hello World!</h1>
-</body>
-</html> --%>
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -38,11 +24,6 @@
     <script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
     <script src="assets/js/Chart.js"></script>
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-      <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
   </head>
 
   <body data-spy="scroll" data-offset="0" data-target="#nav">
@@ -72,8 +53,8 @@
 		<div class="container">
 			<div class="row centered">
 				<div class="col-lg-12">
-					<h1>John A Smith </h1>
-					<h3>Head Chef | jsmith@jsmith.com</h3>
+					<h1><b>John A Smith</b></h1>
+					<h3><b>Sr Web Engineer | jsmith@jsmith.com</b></h3>
 				</div><!--/.col-lg-12 -->
 			</div><!--/.row -->
 		</div><!--/.container -->
@@ -89,10 +70,10 @@
 					<h5>ABOUT</h5>
 				</div>
 				<div class="col-lg-6">
-					<p>The About Me Section...</p>
+					<p>Hello! I'm a driven, focused, intelligent and experienced IT professional. I'm ready for the "right" project and I'm focused on changing the world, one line of code at a time.. </p>
 				</div>
 				<div class="col-lg-3">
-					<p><a href="#"><i class="icon-file"></i></a> <sm>DOWNLOAD PDF</sm></p>
+					<!-- <p><a href="#"><i class="icon-file"></i></a> <sm>DOWNLOAD PDF</sm></p> -->
 				</div>
 				
 			</div><!--/.row -->
@@ -105,62 +86,106 @@
 	<div class="container desc">
 		<div class="row">
 
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>EDUCATION</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><t>Master in Cooking</t><br/>
-						St. Patrick University <br/>
-						<i>3 Years Course</i>
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>Grady's School of Cooking</sm><br/>
-					<imp><sm>2 Years Course</sm></imp>
-					</p>
-				</div>
-	
-				<div class="col-lg-3">
-					<p><sm>JUNE 2012</sm></p>
-				</div>
+			<div class="col-lg-2 col-lg-offset-1">
+				<h5>EDUCATION</h5>
+			</div>
+			<div class="col-lg-6">
+				<p><t>Bachelors Degree in Computer Science</t><br/>
+					Mt. Vernon Nazarene University <br/>
+				</p>
+			</div>
 	
 		</div><!--/.row -->
 		<br>
 		<hr>
 	</div><!--/.container -->
-	
 	
 	<!--WORK DESCRIPTION -->
+	<!-- <div id="workhist">
+		<div class="container"> -->
+		
 	<div class="container desc">
 		<div class="row">
-
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>WORK</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><t>Front-end Developer</t><br/>
-						Black Tie Corp. <br/>
-					</p>
-					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</more></p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>AUGUST 2012 - CURRENT</sm></p>
-				</div>
-	
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><t>Web Designer - Intern</t><br/>
-						Onassis Ltd. <br/>
-					</p>
-					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</more></p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>JUNE 2010 - JULY 2012</sm></p>
-				</div>
+		
+			<div class="col-lg-2 col-lg-offset-1">
+				<h5>WORK HISTORY</h5>
+			</div>
+			<div class="col-lg-6">
+				<p><t><b>Sr Consultant</b></t><br/>
+					<i>HealthMap Solutions</i> <br/>
+				</p>
+				<p><more><u><b>KHM Portal</b></u><br/> A J2EE Web Application built on Liferay that allows nurses to connect with patients in order to develop Health Plans to increase the life expectancy of patients with Kidney Disease. I currently work on new development, design and support.</more></p>
+			</div>
+			<div class="col-lg-3">
+				<p><sm><b>JUNE 2017 - CURRENT</b></sm></p>
+			</div>
+			<hr>
 		</div><!--/.row -->
 		<br>
+		<div class="row">
+
+			<div class="col-lg-2 col-lg-offset-1">
+				<h5>&nbsp;</h5>
+			</div>
+			
+			<div class="col-lg-6">
+				<p><t><b>Sr Consultant</b></t><br/>
+					<i>Veredus</i> <br/>
+				</p>
+				<p><more><u><b>Valpak - Valpak Dot Com</b></u><br/> A J2EE Web Application which serves up coupons to local, regional and national businesses. It allows users to redeem coupons on site. I worked to develop and deploy new functionality</more></p>
+				<p><more><u><b>Valpak - Valpak 3D App</b></u><br/> An Augmented Reality app used for the AMEX postal incentive. It is based off the Vuforia example which allows the user to play videos in real time after scanning images/barcodes. I worked to refactor and fix the existing Android and iPhone apps.</more></p>
+				<p><more><u><b>Valpak - Home Services</b></u><br/> A Node.js app to allow customers to find coupons in the home services and repair industries. I worked on development for maintenance of this app.</more></p>
+			</div>
+			<div class="col-lg-3">
+				<p><sm><b>NOVEMBER 2016 - APRIL 2017</b></sm></p>
+			</div> 
+				
+		</div><!--/.row -->
+		
+		<br>
+		<div class="row">
+
+			<div class="col-lg-2 col-lg-offset-1">
+				<h5>&nbsp;</h5>
+			</div>
+			
+			<div class="col-lg-6">
+				<p><t>IS Technical Specialist</t><br/>
+					Huntington National Bank <br/>
+				</p>
+				<p><more><u>Huntington Mobile App</u><br/> The mobile smartphone (also iPad and Tab) app for Huntington bank customers. I worked as a Technical Lead and helped to design, develop, deploy and test both Android and iPhone.</more></p>
+				<p><more><u>OAO</u><br/> The Huntington Bank product which allows customers to open checking, savings, money market and credit card accounts online. I helped design, develop, deploy and support this J2EE Web Application</more></p>
+			</div>
+			<div class="col-lg-3">
+				<p><sm>SEPTEMBER 2014 - NOVEMBER 2016</sm></p>
+			</div> 
+				
+		</div><!--/.row -->
+		<br>
+		
+		<div class="row">
+
+			<div class="col-lg-2 col-lg-offset-1">
+				<h5>&nbsp;</h5>
+			</div>
+			
+			<div class="col-lg-6">
+				<p><t>Sr Consultant</t><br/>
+					Experis Manpower Group <br/>
+				</p>
+				<p><more><u>JP Morgan Chase - IDM Wizard Re-write.</u><br/> A J2EE project that included conversion of Pega forms to Java based forms.</more></p>
+				<p><more><u>Nationwide Insurance - eBI Insurance Application.</u><br/> The Nationwide Insurance Application. I worked to add functionality and design.</more></p>
+			</div>
+			<div class="col-lg-3">
+				<p><sm>MAY 2013 - AUGUST 2014</sm></p>
+			</div> 
+				
+		</div><!--/.row -->
+		<br>
+		
 		<hr>
 	</div><!--/.container -->
-
+	
 
 	<!--AWARDS DESCRIPTION -->
 	<div class="container desc">
@@ -193,9 +218,12 @@
 	
 	
 	<!--SKILLS DESCRIPTION -->
-	<div id="skillswrap">
-		<div class="container">
-			<div class="row">
+	<!-- <div id="skillswrap"> -->
+		<!-- <div class="container">
+			<div class="row"> -->
+		<div id="intro">
+			<div class="container">
+		
 					<div class="col-lg-2 col-lg-offset-1">
 						<h5>SKILLS</h5>
 					</div>
@@ -312,7 +340,7 @@
 			</div><!--/.row -->
 			<br>
 		</div><!--/.container -->
-	</div><!--/ #skillswrap -->
+	<!-- </div> --><!--/ #skillswrap -->
 
 
 
