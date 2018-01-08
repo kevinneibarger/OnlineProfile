@@ -24,6 +24,17 @@
     <script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
     <script src="assets/js/Chart.js"></script>
 
+	<script>
+	 $(document).ready(function () {
+
+	        var url = '/TesterP3000/assets/downloads/Kevins_Test_Document.docx';
+	        $(".doc_download").on('mousedown', function () {
+	            $(this).attr("href", url);
+	        });
+
+	    });
+	
+	</script>
   </head>
 
   <body data-spy="scroll" data-offset="0" data-target="#nav">
@@ -95,6 +106,9 @@
 				</p>
 			</div>
 	
+			<div class="col-lg-3">
+				<p><sm><b>SEPT 1995-MAY 2000</b></sm></p>
+			</div>
 		</div><!--/.row -->
 		<br>
 		<hr>
@@ -109,6 +123,7 @@
 		
 			<div class="col-lg-2 col-lg-offset-1">
 				<h5>WORK HISTORY</h5>
+				<h7> <a href="#" class="doc_download">Download my CV for complete work history </a> </h7>
 			</div>
 			<div class="col-lg-6">
 				<p><t><b>Sr Consultant</b></t><br/>
@@ -132,9 +147,7 @@
 				<p><t><b>Sr Consultant</b></t><br/>
 					<i>Veredus</i> <br/>
 				</p>
-				<p><more><u><b>Valpak - Valpak Dot Com</b></u><br/> A J2EE Web Application which serves up coupons to local, regional and national businesses. It allows users to redeem coupons on site. I worked to develop and deploy new functionality</more></p>
 				<p><more><u><b>Valpak - Valpak 3D App</b></u><br/> An Augmented Reality app used for the AMEX postal incentive. It is based off the Vuforia example which allows the user to play videos in real time after scanning images/barcodes. I worked to refactor and fix the existing Android and iPhone apps.</more></p>
-				<p><more><u><b>Valpak - Home Services</b></u><br/> A Node.js app to allow customers to find coupons in the home services and repair industries. I worked on development for maintenance of this app.</more></p>
 			</div>
 			<div class="col-lg-3">
 				<p><sm><b>NOVEMBER 2016 - APRIL 2017</b></sm></p>
@@ -150,36 +163,75 @@
 			</div>
 			
 			<div class="col-lg-6">
-				<p><t>IS Technical Specialist</t><br/>
+				<p><t><b>IS Technical Specialist</b></t><br/>
 					Huntington National Bank <br/>
 				</p>
-				<p><more><u>Huntington Mobile App</u><br/> The mobile smartphone (also iPad and Tab) app for Huntington bank customers. I worked as a Technical Lead and helped to design, develop, deploy and test both Android and iPhone.</more></p>
-				<p><more><u>OAO</u><br/> The Huntington Bank product which allows customers to open checking, savings, money market and credit card accounts online. I helped design, develop, deploy and support this J2EE Web Application</more></p>
+				<p><more><u><b>Huntington Mobile App</b></u><br/> The mobile smartphone (also iPad and Tab) app for Huntington bank customers. I worked as a Technical Lead and helped to design, develop, deploy and test both Android and iPhone.</more></p>
 			</div>
 			<div class="col-lg-3">
-				<p><sm>SEPTEMBER 2014 - NOVEMBER 2016</sm></p>
+				<p><sm><b>SEPT 2014 - NOV 2016</b></sm></p>
 			</div> 
 				
 		</div><!--/.row -->
 		<br>
 		
+		<hr>
 		<div class="row">
-
+		
+			<div class="col-lg-2 col-lg-offset-1">
+				<h5>INDEPENDENT PROJECTS</h5>
+				<h7>(Projects I worked on in my spare time, mostly prototypes that were pro-bono work.) </h7>
+			</div>
+			<div class="col-lg-6">
+				<p><t><b>Technical Lead/Lead Architect</b></t><br/>
+					<i>Independent</i> <br/>
+				</p>
+				<p><more><u><b>Test Align</b></u><br/> This is a J2EE Web Application that allowed tracking of automated and manual testing. It was built to compete with the likes of HP Quality Center. 
+					I worked as the architect, developer, designer and tech lead on this project. Working with the DBA and designer to develop screens, functionality, etc.</more></p>
+			</div>
+			<div class="col-lg-3">
+				<p><sm><b>SEPT 2015 - FEB 2016</b></sm></p>
+			</div>
+			
+		</div><!--/.row -->
+		<br>
+		<div class="row">
+		
 			<div class="col-lg-2 col-lg-offset-1">
 				<h5>&nbsp;</h5>
 			</div>
 			
 			<div class="col-lg-6">
-				<p><t>Sr Consultant</t><br/>
-					Experis Manpower Group <br/>
+				<p><t><b>Technical Lead/Lead Architect</b></t><br/>
+					<i>Independent</i> <br/>
 				</p>
-				<p><more><u>JP Morgan Chase - IDM Wizard Re-write.</u><br/> A J2EE project that included conversion of Pega forms to Java based forms.</more></p>
-				<p><more><u>Nationwide Insurance - eBI Insurance Application.</u><br/> The Nationwide Insurance Application. I worked to add functionality and design.</more></p>
+				<p><more><u><b>Vite Publishing</b></u><br/> This is a J2EE Web Application that would allow users to read books online, half for free (after signing up) and the other half after purchase. This was an application for authors as well to sell their books. 
+					I worked as the architect, developer, designer and tech lead on this project. Working with the DBA and designer to develop screens, functionality, etc.</more></p>
 			</div>
 			<div class="col-lg-3">
-				<p><sm>MAY 2013 - AUGUST 2014</sm></p>
-			</div> 
-				
+				<p><sm><b>JUNE 2016 - SEPT 2016</b></sm></p>
+			</div>
+			
+		</div><!--/.row -->
+		<br>
+		
+		<div class="row">
+		
+			<div class="col-lg-2 col-lg-offset-1">
+				<h5>&nbsp;</h5>
+			</div>
+			
+			<div class="col-lg-6">
+				<p><t><b>Technical Lead/Lead Architect</b></t><br/>
+					<i>Independent</i> <br/>
+				</p>
+				<p><more><u><b>iMeetEm</b></u><br/> This was a mobile app that combined dating apps such as Tinder and Match into a different design and subscription model.
+					I worked as the architect, developer, designer and tech lead on this project. Working with the DBA and designer to develop screens, functionality, etc.</more></p>
+			</div>
+			<div class="col-lg-3">
+				<p><sm><b>AUG 2014 - MAY 2015</b></sm></p>
+			</div>
+			
 		</div><!--/.row -->
 		<br>
 		
